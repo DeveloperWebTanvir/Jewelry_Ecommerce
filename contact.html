@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Surose - Jewelry eCommerce HTML Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="apple-touch-icon" href="assets/images/favicon.png">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!-- CSS FILES HERE -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendors/meanmenu.min.css">
+    <link rel="stylesheet" href="assets/css/vendors/slick.css">
+    <link rel="stylesheet" href="assets/css/vendors/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/vendors/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/vendors/nice-select.css">
+    <link rel="stylesheet" href="assets/css/vendors/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/vendors/jquery.nstSlider.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- endinject -->
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div class="tm-preloader">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="tm-preloader-logo">
+                        <img src="assets/images/logo.png" alt="logo">
+                    </div>
+                    <span class="tm-preloader-progress"></span>
+                </div>
+            </div>
+        </div>
+        <button class="tm-button tm-button-small">Cancel Preloader</button>
+    </div>
+    <!--// Preloader -->
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="wrapper">
+
+        <!-- Header -->
+        <div class="tm-header tm-header-sticky">
+
+            <!-- Header Top Area -->
+            <div class="tm-header-toparea bg-black">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-8 col-12">
+                            <ul class="tm-header-info">
+                                <li><a href="tel:18883456789"><i class="ion-ios-telephone"></i>1-888-345-6789</a></li>
+                                <li><a href="mailto:contact@example.com"><i
+                                            class="ion-android-mail"></i>contact@example.com</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="tm-header-options">
+                                <div class="tm-dropdown tm-header-links">
+                                    <button>My Account</button>
+                                    <ul>
+                                        <li><a href="my-account.html">My Account</a></li>
+                                        <li><a href="login-register.html">Login/Register</a></li>
+                                        <li><a href="cart.html">Shopping Cart</a></li>
+                                        <li><a href="wishlist.html">Wishlist</a></li>
+                                        <li><a href="checkout.html">Checkout</a></li>
+                                    </ul>
+                                </div>
+                                <div class="tm-dropdown tm-header-currency">
+                                    <button>USD</button>
+                                    <ul>
+                                        <li><a href="#">USD</a></li>
+                                        <li><a href="#">EUR</a></li>
+                                        <li><a href="#">JPY</a></li>
+                                        <li><a href="#">GBP</a></li>
+                                    </ul>
+                                </div>
+                                <div class="tm-dropdown tm-header-language">
+                                    <button><img src="assets/images/flag-english.png" alt="language">English</button>
+                                    <ul>
+                                        <li><a href="#"><img src="assets/images/flag-english.png"
+                                                    alt="language">English</a></li>
+                                        <li><a href="#"><img src="assets/images/flag-spain.png"
+                                                    alt="language">Spanish</a></li>
+                                        <li><a href="#"><img src="assets/images/flag-russian.png"
+                                                    alt="language">Russian</a></li>
+                                        <li><a href="#"><img src="assets/images/flag-french.png"
+                                                    alt="language">French</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--// Header Top Area -->
+
+            <!-- Header Middle Area -->
+            <div class="tm-header-middlearea bg-white">
+                <div class="container">
+                    <div class="tm-mobilenav"></div>
+                    <div class="row align-items-center">
+                        <div class="col-lg-3 col-6 order-1 order-lg-1">
+                            <a href="index.html" class="tm-header-logo">
+                                <img src="assets/images/logo.png" alt="surose">
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-12 order-3 order-lg-2">
+                            <form class="tm-header-search">
+                                <input type="text" placeholder="Search product...">
+                                <button><i class="ion-android-search"></i></button>
+                            </form>
+                        </div>
+                        <div class="col-lg-3 col-6 order-2 order-lg-3">
+                            <ul class="tm-header-icons">
+                                <li><a href="wishlist.html"><i class="ion-android-favorite-outline"></i><span>0</span></a></li>
+                                <li><a href="cart.html"><i class="ion-bag"></i><span>0</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--// Header Middle Area -->
+
+            <!-- Header Bottom Area -->
+            <div class="tm-header-bottomarea bg-white">
+                <div class="container">
+                    <nav class="tm-header-nav">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li class="tm-header-nav-dropdown"><a href="products.html">Shop</a>
+                                <ul>
+                                    <li><a href="products.html">Products</a></li>
+                                    <li><a href="products-leftsidebar.html">Products Left Sidebar</a></li>
+                                    <li><a href="products-nosidebar.html">Products Without Sidebar</a></li>
+                                    <li><a href="products-4-column.html">Products 4 Column</a></li>
+                                    <li><a href="product-details.html">Product Details</a></li>
+                                    <li><a href="product-details-leftsidebar.html">Product Details Left Sidebar</a></li>
+                                    <li><a href="product-details-nosidebar.html">Product Details Without Sidebar</a>
+                                    </li>
+                                    <li><a href="#">Others</a>
+                                        <ul>
+                                            <li><a href="cart.html">Shopping Cart</a></li>
+                                            <li><a href="wishlist.html">Wishlist</a></li>
+                                            <li><a href="checkout.html">Checkout</a></li>
+                                            <li><a href="my-account.html">My Account</a></li>
+                                            <li><a href="login-register.html">Login / Register</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="tm-header-nav-megamenu"><a href="index.html">Pages</a>
+
+                                <ul>
+                                    <li><a href="shop.html">Common Pages</a>
+                                        <ul>
+                                            <li><a href="index.html">Homepage</a></li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="portfolios.html">Portfolios</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Blog Pages</a>
+                                        <ul>
+                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="blog-leftsidebar.html">Blog Left Sidebar</a></li>
+                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                            <li><a href="blog-details-leftsidebar.html">Blog Details Left Sidebar</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Shop Pages</a>
+                                        <ul>
+                                            <li><a href="products.html">Products</a></li>
+                                            <li><a href="products-leftsidebar.html">Products Left Sidebar</a></li>
+                                            <li><a href="products-nosidebar.html">Products Without Sidebar</a></li>
+                                            <li><a href="products-4-column.html">Products 4 Column</a></li>
+                                            <li><a href="product-details.html">Product Details</a></li>
+                                            <li><a href="product-details-leftsidebar.html">Product Details Left
+                                                    Sidebar</a></li>
+                                            <li><a href="product-details-nosidebar.html">Product Details Without
+                                                    Sidebar</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Shop Related Pages</a>
+                                        <ul>
+                                            <li><a href="cart.html">Shopping Cart</a></li>
+                                            <li><a href="wishlist.html">Wishlist</a></li>
+                                            <li><a href="checkout.html">Checkout</a></li>
+                                            <li><a href="my-account.html">My Account</a></li>
+                                            <li><a href="login-register.html">Login / Register</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <li class="tm-header-nav-dropdown"><a href="blog.html">Blog</a>
+                                <ul>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="blog-leftsidebar.html">Blog Left Sidebar</a></li>
+                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                    <li><a href="blog-details-leftsidebar.html">Blog Details Left Sidebar</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!--// Header Bottom Area -->
+
+        </div>
+        <!--// Header -->
+
+        <!-- Breadcrumb Area -->
+        <div class="tm-breadcrumb-area tm-padding-section bg-grey" data-bgimage="assets/images/breadcrumb-bg.jpg">
+            <div class="container">
+                <div class="tm-breadcrumb">
+                    <h2>Contact Us</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li>About</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--// Breadcrumb Area -->
+
+        <!-- Page Content -->
+        <main class="page-content">
+
+            <!-- Google Map -->
+            <div id="google-map" class="google-map"></div>
+            <!--// Google Map -->
+
+            <!-- Contact Area -->
+            <div class="tm-section tm-contact-area tm-padding-section bg-white">
+                <div class="container">
+                    <div class="tm-contact-blocks">
+                        <div class="row mt-30-reverse justify-content-center">
+
+                            <!-- Contact block -->
+                            <div class="col-lg-4 col-md-6  mt-30">
+                                <div class="tm-contact-block text-center">
+                                    <i class="ion-android-call"></i>
+                                    <h6>Call Us</h6>
+                                    <p>Phone : <a href="tel:+18009156270">1 800 915 6270</a></p>
+                                    <p>Tel : <a href="tel:+15147332010">1 514 733 2010</a></p>
+                                </div>
+                            </div>
+                            <!--// Contact block -->
+
+                            <!-- Contact block -->
+                            <div class="col-lg-4 col-md-6  mt-30">
+                                <div class="tm-contact-block text-center">
+                                    <i class="ion-location"></i>
+                                    <h6>Our Location</h6>
+                                    <p>7415 Transcanadienne, Suite 100 St. Laurent, Quebec, Canada H45T 1Z22</p>
+                                </div>
+                            </div>
+                            <!--// Contact block -->
+
+                            <!-- Contact block -->
+                            <div class="col-lg-4 col-md-6  mt-30">
+                                <div class="tm-contact-block text-center">
+                                    <i class="ion-email"></i>
+                                    <h6>Email</h6>
+                                    <p><a href="mailto:surose@gmail.com">surose@gmail.com</a></p>
+                                    <p><a href="mailto:info@surose.com">info@surose.com</a></p>
+                                </div>
+                            </div>
+                            <!--// Contact block -->
+
+                        </div>
+                    </div>
+
+                    <div class="tm-contact-forms tm-padding-section-top">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-6 col-12">
+                                <div class="tm-sectiontitle text-center">
+                                    <h3>SEND US A MESSAGE</h3>
+                                    <p>You can contact us for any of your requirements. We’ll help you meet your needs.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <form id="tm-contactform" action="assets/php/mailer.php"
+                                    class="tm-contact-forminner tm-form" method="POST">
+                                    <div class="tm-form-inner">
+                                        <div class="tm-form-field tm-form-fieldhalf">
+                                            <label for="contact-form-name">Name</label>
+                                            <input type="text" id="contact-form-name" placeholder="Your name here"
+                                                name="name" required>
+                                        </div>
+                                        <div class="tm-form-field tm-form-fieldhalf">
+                                            <label for="contact-form-email">Email</label>
+                                            <input type="email" id="contact-form-email" placeholder="surose@example.com"
+                                                name="email" required>
+                                        </div>
+                                        <div class="tm-form-field tm-form-fieldhalf">
+                                            <label for="contact-form-phone">Phone</label>
+                                            <input type="text" id="contact-form-phone"
+                                                placeholder="Your phone number here" name="phone" required>
+                                        </div>
+                                        <div class="tm-form-field tm-form-fieldhalf">
+                                            <label for="contact-form-subject">Subject</label>
+                                            <input type="text" id="contact-form-subject" placeholder="Your subjert"
+                                                name="subject">
+                                        </div>
+                                        <div class="tm-form-field">
+                                            <label for="contact-form-message">Message</label>
+                                            <textarea cols="30" rows="5" id="contact-form-message"
+                                                placeholder="Write your message" name="message"></textarea>
+                                        </div>
+                                        <div class="tm-form-field text-center">
+                                            <button type="submit" class="tm-button tm-button-block">Send
+                                                Message</button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <p class="form-messages"></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--// Contact Area -->
+
+        </main>
+        <!--// Page Content -->
+
+        <!-- Footer -->
+        <div class="tm-footer">
+
+            <!-- Instagram Photos -->
+            <ul id="instafeed" class="tm-instaphotos"></ul>
+            <!--// Instagram Photos -->
+
+            <!-- Footer Top Area -->
+            <div class="tm-footer-toparea tm-padding-section">
+                <div class="container">
+                    <div class="widgets widgets-footer row">
+
+                        <!-- Single Widget -->
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="single-widget widget-info">
+                                <a class="widget-info-logo" href="index.html"><img src="assets/images/logo.png"
+                                        alt="logo"></a>
+                                <p>Lorem ipsum dolor sit amet, consect etur adipiscing elit.</p>
+                                <ul>
+                                    <li><b>Address :</b>2726 Avenue Papineau Montreal, QC, Canada</li>
+                                    <li><b>Phone :</b><a href="tel:+18009156270">1-800-915-6270</a></li>
+                                    <li><b>Email :</b><a href="mailto:info@example.com">info@example.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--// Single Widget -->
+
+                        <!-- Single Widget -->
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="single-widget widget-quicklinks">
+                                <h6 class="widget-title">Useful Link</h6>
+                                <ul>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="#">Delivery Info</a></li>
+                                    <li><a href="#">Privacy & Policy</a></li>
+                                    <li><a href="#">Returns & Refunds</a></li>
+                                    <li><a href="#">Terms & Conditions</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--// Single Widget -->
+
+                        <!-- Single Widget -->
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="single-widget widget-quicklinks">
+                                <h6 class="widget-title">My Account</h6>
+                                <ul>
+                                    <li><a href="my-account.html">My account</a></li>
+                                    <li><a href="cart.html">Cart</a></li>
+                                    <li><a href="wishlist.html">Wishlist</a></li>
+                                    <li><a href="#">Newsletter</a></li>
+                                    <li><a href="#">Check out</a></li>
+                                    <li><a href="#">Frequently Questions</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--// Single Widget -->
+
+                        <!-- Single Widget -->
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="single-widget widget-newsletter">
+                                <h6 class="widget-title">Join Our Newsletter</h6>
+                                <p>Get Business news, tip and solutions to
+                                    your problems from our experts.</p>
+                                <form id="tm-mailchimp-form" class="widget-newsletter-form">
+                                    <input id="mc-email" type="text" placeholder="Enter email address">
+                                    <button id="mc-submit" type="submit" class="tm-button">Subscribe Now
+                                        <b></b></button>
+                                </form>
+                                <!-- Mailchimp Alerts -->
+                                <div class="tm-mailchimp-alerts">
+                                    <div class="tm-mailchimp-submitting"></div>
+                                    <div class="mailchimp-success"></div>
+                                    <div class="tm-mailchimp-error"></div>
+                                </div>
+                                <!--// Mailchimp Alerts -->
+                            </div>
+                        </div>
+                        <!--// Single Widget -->
+
+                    </div>
+                </div>
+            </div>
+            <!--// Footer Top Area -->
+
+            <!-- Footer Bottom Area -->
+            <div class="tm-footer-bottomarea">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <p class="tm-footer-copyright">©
+                                2019. Designed by <a href="https://thememarch.com">ThemeMarch</a></p>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="tm-footer-payment">
+                                <img src="assets/images/payment-methods.png" alt="payment methods">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--// Footer Bottom Area -->
+
+        </div>
+        <!--// Footer -->
+
+        <button id="back-top-top"><i class="ion-arrow-up-c"></i></button>
+
+    </div>
+    <!--// Wrapper -->
+
+    <!-- JS FILES HERE -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBEDd_Sv9-p-I6bebrAMpmZBQvalqBE5Ds"></script>
+    <script src="assets/js/mapjs/google-map.js"></script>
+
+    <!-- inject:js -->
+    <script src="assets/js/vendors/modernizr-3.7.1.min.js"></script>
+    <script src="assets/js/vendors/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/vendors/jquery.meanmenu.min.js"></script>
+    <script src="assets/js/vendors/slick.min.js"></script>
+    <script src="assets/js/vendors/jquery.nice-select.js"></script>
+    <script src="assets/js/vendors/jquery.countdown.min.js"></script>
+    <script src="assets/js/vendors/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/js/vendors/jquery.fancybox.min.js"></script>
+    <script src="assets/js/vendors/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/vendors/isotope.pkgd.min.js"></script>
+    <script src="assets/js/vendors/instafeed.min.js"></script>
+    <script src="assets/js/vendors/jquery.nstslider.min.js"></script>
+    <script src="assets/js/vendors/ScrollMagic.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- endinject -->
+</body>
+
+</html>
